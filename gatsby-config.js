@@ -116,7 +116,39 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-postcss`,
-    `gatsby-plugin-feed`,
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                return {
+                  title: edge.node.frontmatter.title,
+                  // Other fields you want to include
+                };
+              });
+            },
+            query: `
+              {
+                allMarkdownRemark {
+                  edges {
+                    node {
+                      frontmatter {
+                        title
+                        # Other frontmatter fields
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+            title: "Your RSS Feed Title",
+          },
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
