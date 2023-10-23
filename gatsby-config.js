@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Thiago Marafon | Software Development Manager`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Software Development Manager`,
     // Optional: Twitter account handle
     author: `@thiagomarafon`,
     // Optional: Github account URL
@@ -15,44 +15,43 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/thiagomarafon/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Experienced AI startup founder/CTO with over 20 years of experience in the software industry. Proficient in Mobile, APIs, cloud technologies, and Generative AI. More than 13 years leading both large teams (100+) and small teams (2 engineers). Excels in dynamic, collaborative environments and takes pride in nurturing and developing team members to foster a culture of growth and success.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Youper',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Empathetic, safe, and clinically validated chatbot for mental healthcare',
+        link: 'https://youper.ai',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Prompt Engineering Multi-turn conversation simulation',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Proprietary platform for massive conversation simulation and prompt evaluation',
+        link: 'https://www.youper.ai/safety',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        "name": "Youper Inc",
+        "description": "CTO, January 2017 - Present",
+        "link": "https://youper.ai"
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          "name": "Softplan",
+          "description": "Software Development Manager, June 2014 - April 2016",
+          "link": "https://www.softplan.com.br"
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          "name": "Softplan",
+          "description": "Project Management Officer, October 2010 - December 201",
+          "link": "https://www.softplan.com.br"
+      },
+      {
+          "name": "Softplan",
+          "description": "Full-Stack Developer, August 2005 - October 2010",
+          "link": "https://www.softplan.com.br"
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -60,16 +59,20 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'JavaScript (ES6+), TypeScript, Python, Node.js, Express.js, Angular, NestJS',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MongoDB, PostreSQL',
+      },
+      {
+        name: 'Cloud (AWS)',
+        description: 'SageMaker, ECS, Beanstalk, EC2, RDS, S3, Cloudfront'
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Chatbots, Gen AI, Docker, CI / CD, API design, Agile / Scrum',
       },
     ],
   },
@@ -152,7 +155,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `ADD YOUR TRACKING ID HERE`, // Optional Google Analytics
+        trackingId: `G-9BV1L3WH4R`, 
       },
     },
     {
