@@ -19,6 +19,11 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'Mistral_7B + RAG',
+        description: 'API that generates text about my personal career using Mistral_7B LLM and RAG with LangChain',
+        link: 'https://github.com/TMarafon/Mistral_7B_API',
+      },
+      {
         name: 'Youper',
         description:
           'Empathetic, safe, and clinically validated chatbot for mental healthcare',

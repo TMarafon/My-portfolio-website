@@ -17,7 +17,7 @@ const Index = ({ data }) => {
   const posts = data.allMarkdownRemark.edges;
   const experience = get(data, 'site.siteMetadata.experience', false);
   const skills = get(data, 'site.siteMetadata.skills', false);
-  const noBlog = !posts || !posts.length;
+  const noBlog = true;//!posts || !posts.length;
 
   return (
     <Layout>
