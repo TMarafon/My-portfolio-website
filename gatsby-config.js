@@ -20,7 +20,7 @@ module.exports = {
     projects: [
       {
         name: 'Mistral_7B + RAG',
-        description: 'API that generates text about my personal career using Mistral_7B LLM and RAG with LangChain',
+        description: 'API that generates text using Mistral_7B LLM and RAG with LangChain',
         link: 'https://github.com/TMarafon/Mistral_7B_API',
       },
       {
