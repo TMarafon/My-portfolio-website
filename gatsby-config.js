@@ -19,6 +19,11 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'Text and image generation',
+        description: 'Application written in Python with UI using Gradio that generate text and image',
+        link: 'https://github.com/TMarafon/image_generation',
+      },
+      {
         name: 'Mistral_7B + RAG',
         description: 'API that generates text using Mistral_7B LLM and RAG with LangChain',
         link: 'https://github.com/TMarafon/Mistral_7B_API',
